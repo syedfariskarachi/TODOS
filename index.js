@@ -20,3 +20,6 @@ while (condition) {
     condition = addtasks.addmore;
     console.log(todos);
 }
+todos.forEach(todo => {
+    console.log(todo);
+});

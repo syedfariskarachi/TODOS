@@ -19,5 +19,8 @@ while (condition) {
   ]);
   todos.push(addtasks.todo);
   condition = addtasks.addmore;
-  console.log(todos);
+  // console.log(todos);
 }
+todos.forEach(todo => {
+  console.log(todo);
+});
